@@ -28,12 +28,12 @@ def _move_schema_reference(reference: str) -> str:
     return reference
 
 
-class FlaskPydanticSpec:
+class FlaskPydanticOpenapi:
     """
     Interface
 
     :param str backend_name: choose from ('flask')
-    :param backend: a backend that inherit `flask_pydantic_spec.FlaskBackend`
+    :param backend: a backend that inherit `flask_pydantic_openapi.FlaskBackend`
     :param app: backend framework application instance (you can also register to it later)
     :param before: a callback function of the form :meth:`fla.utils.default_before_handler`
         ``func(req, resp, req_validation_error, instance)``

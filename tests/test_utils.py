@@ -8,13 +8,13 @@ from flask_pydantic_openapi.utils import (
     has_model,
     parse_name,
 )
-from flask_pydantic_openapi.spec import FlaskPydanticSpec
+from flask_pydantic_openapi.spec import FlaskPydanticOpenapi
 from flask_pydantic_openapi.types import Response, Request, _parse_code
 
 from .common import DemoModel
 
 
-api = FlaskPydanticSpec()
+api = FlaskPydanticOpenapi()
 
 
 def undecorated_func():

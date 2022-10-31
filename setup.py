@@ -14,7 +14,7 @@ with open(path.join(here, "requirements/production.txt"), encoding="utf-8") as f
 
 setup(
     name="flask_pydantic_openapi",
-    version="0.3.2",
+    version="0.3.4",
     author="Chris Gearing, Simon Hayward, Rob Young, Donald Fleming, Saurabh Jha",
     author_email="chris.gearing@turntown.digital",
     description=(
@@ -23,7 +23,7 @@ setup(
     ),
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/turner-townsend/flask-pydantic-spec",
+    url="https://github.com/nikitamiazin/flask-pydantic-openapi",
     packages=find_packages(exclude=["examples*", "tests*"]),
     package_data={},
     classifiers=[

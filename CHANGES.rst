@@ -1,4 +1,4 @@
-.. currentmodule:: flask-pydantic-spec
+.. currentmodule:: flask-pydantic-openapi
 VERSION 0.3.2
 -------------
 
