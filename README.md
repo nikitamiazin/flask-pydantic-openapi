@@ -2,7 +2,7 @@
 
 A library to make it easy to add OpenAPI documentation to your Flask app, and validate the requests using [Pydantic](https://github.com/samuelcolvin/pydantic/).
 
-This library began as a fork of [Spectree](https://github.com/0b01001001/spectree), but as we made changes we thought 
+This library began as a fork of [Flask-Pydantic-Spec](https://github.com/turner-townsend/flask-pydantic-spec), but as we made changes we thought 
 other people might be interested in our approach.
 
 ## Features
