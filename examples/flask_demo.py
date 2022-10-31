@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 from random import random
 from enum import Enum
 
-from flask_pydantic_spec import FlaskPydanticSpec, Response
+from flask_pydantic_openapi import FlaskPydanticSpec, Response
 
 
 app = Flask(__name__)

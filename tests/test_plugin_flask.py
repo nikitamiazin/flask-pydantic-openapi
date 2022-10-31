@@ -6,8 +6,8 @@ import json
 from flask import Flask, jsonify, request
 from werkzeug.datastructures import FileStorage
 
-from flask_pydantic_spec.types import Response, MultipartFormRequest
-from flask_pydantic_spec import FlaskPydanticSpec
+from flask_pydantic_openapi.types import Response, MultipartFormRequest
+from flask_pydantic_openapi import FlaskPydanticSpec
 
 from .common import (
     Query,

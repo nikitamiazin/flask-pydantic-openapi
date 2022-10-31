@@ -7,11 +7,11 @@ from typing import List
 from openapi_spec_validator import validate_v3_spec
 from pydantic import BaseModel, StrictFloat, Field
 
-from flask_pydantic_spec import Response
-from flask_pydantic_spec.flask_backend import FlaskBackend
-from flask_pydantic_spec.types import FileResponse, Request, MultipartFormRequest
-from flask_pydantic_spec import FlaskPydanticSpec
-from flask_pydantic_spec.config import Config
+from flask_pydantic_openapi import Response
+from flask_pydantic_openapi.flask_backend import FlaskBackend
+from flask_pydantic_openapi.types import FileResponse, Request, MultipartFormRequest
+from flask_pydantic_openapi import FlaskPydanticSpec
+from flask_pydantic_openapi.config import Config
 
 from .common import get_paths
 
