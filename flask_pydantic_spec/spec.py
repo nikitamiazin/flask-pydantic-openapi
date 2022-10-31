@@ -189,6 +189,9 @@ class FlaskPydanticSpec:
         """
         generate OpenAPI spec according to routes and decorators
         """
+        if not self.config.VISIBLE:
+            return {}
+
         tag_lookup = {tag["name"]: tag for tag in self.config.TAGS}
         routes: Dict[str, Any] = {}
         tags: Dict[str, Any] = {}
