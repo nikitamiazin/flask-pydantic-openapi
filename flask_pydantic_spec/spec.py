@@ -223,6 +223,9 @@ class FlaskPydanticSpec:
                         "requestBody"
                     ] = self._parse_request_body(request_body)
 
+        for route in list(routes.keys()):
+            routes[f"{self.config.ROOT_PATH}{route}"] = routes.pop(route)
+
         spec = {
             "openapi": self.config.OPENAPI_VERSION,
             "info": {
