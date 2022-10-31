@@ -32,6 +32,8 @@ class Config:
         self.INFO: Dict[str, str] = {}
         self.TAGS: List[Mapping[str, str]] = []
 
+        self.ROOT_PATH: str = ""
+
         self.logger = logging.getLogger(__name__)
 
         self.update(**kwargs)
